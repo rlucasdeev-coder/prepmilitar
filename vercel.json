@@ -1,0 +1,12 @@
+{
+  "buildCommand": "",
+  "installCommand": "",
+  "devCommand": "npx http-server",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.+)",
+      "destination": "/index.html"
+    }
+  ]
+}

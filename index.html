@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepMilitar - Mentoria e Estudos para Concursos Militares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>🎖️ PrepMilitar</h1>
+                <p class="tagline">Mentoria & Preparação Militar</p>
+            </div>
+            
+            <nav class="nav-tabs">
+                <button class="nav-btn active" data-tab="mentoria">
+                    <span class="icon">👨‍🏫</span>
+                    <span>Mentoria</span>
+                </button>
+                <button class="nav-btn" data-tab="estudos">
+                    <span class="icon">📚</span>
+                    <span>Estudos</span>
+                </button>
+            </nav>
+
+            <div class="user-menu">
+                <button class="btn-login">Login</button>
+                <button class="btn-register">Registrar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTAINER PRINCIPAL -->
+    <main class="main-container">
+
+        <!-- SEÇÃO MENTORIA -->
+        <section class="tab-content active" id="mentoria">
+            <div class="mentoria-hero">
+                <h2>Mentoria com Especialistas Militares</h2>
+                <p>Aprenda diretamente com profissionais experientes no concurso militar que você deseja</p>
+            </div>
+
+            <div class="mentores-grid">
+                <!-- Card Mentor 1 -->
+                <div class="mentor-card">
+                    <div class="mentor-header">
+                        <img src="https://via.placeholder.com/80" alt="Mentor" class="mentor-avatar">
+                        <div class="mentor-info">
+                            <h3>Tenente Carvalho</h3>
+                            <p class="mentor-spec">Especialista em ENEM Militar</p>
+                        </div>
+                    </div>
+                    <p class="mentor-desc">12 anos de experiência. Aprovou mais de 150 alunos para a Aeronáutica.</p>
+                    <div class="mentor-tags">
+                        <span class="tag">Aeronáutica</span>
+                        <span class="tag">Tática</span>
+                    </div>
+                    <button class="btn-agendar">Agendar Sessão</button>
+                </div>
+
+                <!-- Card Mentor 2 -->
+                <div class="mentor-card">
+                    <div class="mentor-header">
+                        <img src="https://via.placeholder.com/80" alt="Mentor" class="mentor-avatar">
+                        <div class="mentor-info">
+                            <h3>Capitão Silva</h3>
+                            <p class="mentor-spec">Especialista em Exército</p>
+                        </div>
+                    </div>
+                    <p class="mentor-desc">8 anos ensinando. Focado em Física, Química e Estratégia Militar.</p>
+                    <div class="mentor-tags">
+                        <span class="tag">Exército</span>
+                        <span class="tag">Ciências</span>
+                    </div>
+                    <button class="btn-agendar">Agendar Sessão</button>
+                </div>
+
+                <!-- Card Mentor 3 -->
+                <div class="mentor-card">
+                    <div class="mentor-header">
+                        <img src="https://via.placeholder.com/80" alt="Mentor" class="mentor-avatar">
+                        <div class="mentor-info">
+                            <h3>Sargento Paula</h3>
+                            <p class="mentor-spec">Especialista em Marinha</p>
+                        </div>
+                    </div>
+                    <p class="mentor-desc">Especialista em redação militar e português. Taxa de aprovação 95%.</p>
+                    <div class="mentor-tags">
+                        <span class="tag">Marinha</span>
+                        <span class="tag">Português</span>
+                    </div>
+                    <button class="btn-agendar">Agendar Sessão</button>
+                </div>
+
+                <!-- Card Mentor 4 -->
+                <div class="mentor-card">
+                    <div class="mentor-header">
+                        <img src="https://via.placeholder.com/80" alt="Mentor" class="mentor-avatar">
+                        <div class="mentor-info">
+                            <h3>Tenente Costa</h3>
+                            <p class="mentor-spec">Especialista em Polícia Militar</p>
+                        </div>
+                    </div>
+                    <p class="mentor-desc">Mais de 20 anos de experiência. Diretor de preparação para PM.</p>
+                    <div class="mentor-tags">
+                        <span class="tag">Polícia Militar</span>
+                        <span class="tag">Direito</span>
+                    </div>
+                    <button class="btn-agendar">Agendar Sessão</button>
+                </div>
+            </div>
+
+            <!-- SEÇÃO DE AGENDAMENTOS -->
+            <section class="mentoria-schedule">
+                <h3>Próximas Sessões de Mentoria</h3>
+                <div class="schedule-list">
+                    <div class="schedule-item">
+                        <div class="schedule-info">
+                            <h4>Sessão: Português para Concursos</h4>
+                            <p>👨‍🏫 Sargento Paula</p>
+                            <p>📅 28/06/2026 às 19:00</p>
+                        </div>
+                        <button class="btn-join">Entrar Agora</button>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-info">
+                            <h4>Sessão: Tática Militar Avançada</h4>
+                            <p>👨‍🏫 Tenente Carvalho</p>
+                            <p>📅 29/06/2026 às 20:00</p>
+                        </div>
+                        <button class="btn-join">Entrar Agora</button>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-info">
+                            <h4>Sessão: Ciências para Aeronáutica</h4>
+                            <p>👨‍🏫 Capitão Silva</p>
+                            <p>📅 30/06/2026 às 18:00</p>
+                        </div>
+                        <button class="btn-join">Entrar Agora</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- SEÇÃO ESTUDOS -->
+        <section class="tab-content" id="estudos">
+            <div class="estudos-hero">
+                <h2>Plataforma de Estudos</h2>
+                <p>Acesso a materiais, simulados e aulas preparatórias</p>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="filtros-container">
+                <div class="filtro-group">
+                    <label>Concurso:</label>
+                    <select class="filtro-select" id="filtro-concurso">
+                        <option value="">Todos</option>
+                        <option value="aeronautica">Aeronáutica</option>
+                        <option value="exercito">Exército</option>
+                        <option value="marinha">Marinha</option>
+                        <option value="policia">Polícia Militar</option>
+                    </select>
+                </div>
+                <div class="filtro-group">
+                    <label>Disciplina:</label>
+                    <select class="filtro-select" id="filtro-disciplina">
+                        <option value="">Todas</option>
+                        <option value="portugues">Português</option>
+                        <option value="matematica">Matemática</option>
+                        <option value="fisica">Física</option>
+                        <option value="historia">História</option>
+                        <option value="direito">Direito</option>
+                    </select>
+                </div>
+                <div class="filtro-group">
+                    <label>Tipo:</label>
+                    <select class="filtro-select" id="filtro-tipo">
+                        <option value="">Todos</option>
+                        <option value="aula">Aula</option>
+                        <option value="simulado">Simulado</option>
+                        <option value="material">Material PDF</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- GRID DE CONTEÚDOS -->
+            <div class="conteudos-grid">
+                <!-- Card Conteúdo 1 -->
+                <div class="conteudo-card">
+                    <div class="card-badge">Aula</div>
+                    <h3>Interpretação de Texto - Nível Avançado</h3>
+                    <p class="card-desc">Aprenda as melhores técnicas para resolver questões de interpretação em concursos militares.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📚 Português</span>
+                        <span class="meta-item">✈️ Aeronáutica</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">45 min</span>
+                        <button class="btn-acessar">Acessar</button>
+                    </div>
+                </div>
+
+                <!-- Card Conteúdo 2 -->
+                <div class="conteudo-card">
+                    <div class="card-badge simulado">Simulado</div>
+                    <h3>Simulado Completo - ENEM Militar</h3>
+                    <p class="card-desc">Teste seus conhecimentos com 180 questões similares ao ENEM Militar.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">🧮 Todas Disciplinas</span>
+                        <span class="meta-item">✈️ Aeronáutica</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">3h</span>
+                        <button class="btn-acessar">Iniciar</button>
+                    </div>
+                </div>
+
+                <!-- Card Conteúdo 3 -->
+                <div class="conteudo-card">
+                    <div class="card-badge material">Material</div>
+                    <h3>Apostila: Matemática Militar</h3>
+                    <p class="card-desc">Resumo completo de matemática focado nas questões mais comuns em provas militares.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📐 Matemática</span>
+                        <span class="meta-item">🎖️ Todos</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">PDF - 120 pgs</span>
+                        <button class="btn-acessar">Baixar</button>
+                    </div>
+                </div>
+
+                <!-- Card Conteúdo 4 -->
+                <div class="conteudo-card">
+                    <div class="card-badge">Aula</div>
+                    <h3>Física para Exército e Aeronáutica</h3>
+                    <p class="card-desc">Aula completa sobre mecânica, termodinâmica e óptica com exercícios resolvidos.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">⚛️ Física</span>
+                        <span class="meta-item">🪖 Exército</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">90 min</span>
+                        <button class="btn-acessar">Acessar</button>
+                    </div>
+                </div>
+
+                <!-- Card Conteúdo 5 -->
+                <div class="conteudo-card">
+                    <div class="card-badge simulado">Simulado</div>
+                    <h3>Prova de Direito Constitucional</h3>
+                    <p class="card-desc">Simulado focado em direito constitucional para Polícia Militar.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">⚖️ Direito</span>
+                        <span class="meta-item">👮 Polícia Militar</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">2h</span>
+                        <button class="btn-acessar">Iniciar</button>
+                    </div>
+                </div>
+
+                <!-- Card Conteúdo 6 -->
+                <div class="conteudo-card">
+                    <div class="card-badge material">Material</div>
+                    <h3>Caderno de Exercícios - História</h3>
+                    <p class="card-desc">500 questões de história do Brasil e Geral com gabarito comentado.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📜 História</span>
+                        <span class="meta-item">🎖️ Todos</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="duration">PDF - 200 pgs</span>
+                        <button class="btn-acessar">Baixar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SEÇÃO DE PROGRESSO -->
+            <section class="progress-section">
+                <h3>Seu Progresso</h3>
+                <div class="progress-grid">
+                    <div class="progress-item">
+                        <h4>Português</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                        <p class="progress-text">75% completo</p>
+                    </div>
+                    <div class="progress-item">
+                        <h4>Matemática</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                        <p class="progress-text">50% completo</p>
+                    </div>
+                    <div class="progress-item">
+                        <h4>Física</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                        </div>
+                        <p class="progress-text">30% completo</p>
+                    </div>
+                    <div class="progress-item">
+                        <h4>História</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                        <p class="progress-text">60% completo</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>PrepMilitar</h4>
+                <p>Sua plataforma completa para aprovação em concursos militares.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Conecte-se</h4>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PrepMilitar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
